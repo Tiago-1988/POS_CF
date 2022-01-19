@@ -10,5 +10,7 @@ namespace POS_CF.Models
         public int PosID { get; set; }
         
         public int StoreID { get; set; }
+
+        public Store Store { get; set; }
     }
 }
